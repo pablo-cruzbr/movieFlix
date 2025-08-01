@@ -1,10 +1,12 @@
 import { useState } from 'react'
+
 import '../src/index.css'
+import RoutesApp from './router'
 
 function App() {
   return (
     <div className={App}>
-      <h1>TESTE</h1>
+      <RoutesApp/>
     </div>
   )
 }
